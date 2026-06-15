@@ -1,0 +1,9 @@
+resources:
+  jobs:
+    gold_job:
+      name: gold_job
+      job_cluster_key: etl_cluster
+      tasks:
+        - task_key: gold_build
+          spark_python_task:
+            python_file: "src/gold/gold_transform.py"

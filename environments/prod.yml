@@ -1,0 +1,7 @@
+environment: prod
+
+workspace:
+  host: https://<prod-workspace>
+
+variables:
+  catalog: ecommerce_prod

@@ -1,0 +1,8 @@
+job_clusters:
+  - job_cluster_key: etl_cluster
+    new_cluster:
+      spark_version: 15.4.x-scala2.12
+      node_type_id: Standard_DS3_v2
+      num_workers: 2
+      runtime_engine: PHOTON
+      data_security_mode: USER_ISOLATION

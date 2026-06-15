@@ -1,0 +1,7 @@
+environment: test
+
+workspace:
+  host: https://<test-workspace>
+
+variables:
+  catalog: ecommerce_test

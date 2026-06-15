@@ -1,0 +1,11 @@
+variables:
+  bronze_schema:
+    default: bronze
+  silver_schema:
+    default: silver
+  gold_schema:
+    default: gold
+  cluster_policy:
+    default: standard-policy
+  warehouse_size:
+    default: Small

@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.DS_Store
+.env
+*.log
+*.sqlite
+/tmp/
+*.egg-info/
+.python-version
+pytest_cache/

@@ -1,0 +1,15 @@
+resources:
+  jobs:
+    silver_job:
+      name: silver_job
+      job_cluster_key: etl_cluster
+      tasks:
+        - task_key: silver_customers
+          spark_python_task:
+            python_file: "src/silver/customers.py"
+        - task_key: silver_sales
+          spark_python_task:
+            python_file: "src/silver/sales.py"
+        - task_key: silver_sales_orders
+          spark_python_task:
+            python_file: "src/silver/sales_orders.py"

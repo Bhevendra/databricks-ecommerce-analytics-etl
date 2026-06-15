@@ -1,0 +1,10 @@
+permissions:
+
+  - level: CAN_USE
+    group_name: DBX_DATA_ENGINEERS
+
+  - level: CAN_USE
+    group_name: DBX_ANALYTICS_ENGINEERS
+
+  - level: CAN_USE
+    group_name: DBX_POWERBI_USERS

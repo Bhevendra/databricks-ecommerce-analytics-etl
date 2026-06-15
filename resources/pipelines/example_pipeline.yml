@@ -1,0 +1,9 @@
+resources:
+  pipelines:
+    ecommerce_pipeline:
+      name: ecommerce_pipeline
+      notebooks:
+        - notebook_path: ../src/ingestion/github_ingestion.ipynb
+        - notebook_path: ../src/bronze/ds2b.ipynb
+        - notebook_path: ../src/silver/b2s_customers.ipynb
+        - notebook_path: ../src/gold/s2g.ipynb

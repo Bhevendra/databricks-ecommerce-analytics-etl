@@ -1,0 +1,33 @@
+bundle:
+  name: etl-ecommerce-analytics
+
+include:
+  - resources/**/*.yml
+
+variables:
+  catalog:
+    default: ecommerce
+  environment:
+    default: dev
+
+targets:
+  dev:
+    mode: development
+    workspace:
+      host: https://<dev-workspace>
+    variables:
+      catalog: ecommerce_dev
+
+  test:
+    mode: development
+    workspace:
+      host: https://<test-workspace>
+    variables:
+      catalog: ecommerce_test
+
+  prod:
+    mode: production
+    workspace:
+      host: https://<prod-workspace>
+    variables:
+      catalog: ecommerce_prod

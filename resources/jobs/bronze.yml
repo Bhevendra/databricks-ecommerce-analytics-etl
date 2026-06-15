@@ -1,0 +1,9 @@
+resources:
+  jobs:
+    bronze_job:
+      name: bronze_job
+      job_cluster_key: etl_cluster
+      tasks:
+        - task_key: bronze_transform
+          spark_python_task:
+            python_file: "src/bronze/bronze_transform.py"

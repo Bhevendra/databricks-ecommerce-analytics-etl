@@ -1,0 +1,7 @@
+environment: dev
+
+workspace:
+  host: https://<dev-workspace>
+
+variables:
+  catalog: ecommerce_dev
