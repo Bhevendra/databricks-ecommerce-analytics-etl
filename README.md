@@ -155,16 +155,3 @@ The project includes data quality checks for:
 - uniqueness of business keys
 
 Monitoring assets are stored in the `monitoring/` directory and can be extended with additional SLA and freshness checks.
-
-## Why this POC is production-ready
-
-This repository is designed to demonstrate real data engineering best practices:
-
-- clean separation of layers and responsibilities
-- structured Delta Lake storage and schema enforcement
-- reusable Python modules and Delta utilities
-- data quality validations at multiple points
-- environment-aware configuration and deployment
-- documented architecture and professional pipeline structure
-
-For a company presentation, this codebase shows how to implement a scalable Databricks ETL pipeline from raw source ingestion to analytics-ready models.
